@@ -1,0 +1,37 @@
+python tensorflow/examples/image_retraining/retrain.py \
+--bottleneck_dir=/tf_files/bottlenecks \
+--learning_rate=0.01 \
+--train_batch_size=25 \
+--how_many_training_steps 15000 \
+--model_dir=/tf_files/inception \
+--output_graph=/tf_files/retrained_graph.pb \
+--output_labels=/tf_files/retrained_labels.txt \
+--image_dir /tf_files/plug_photos
+
+# combined images
+python tensorflow/examples/image_retraining/retrain.py \
+--bottleneck_dir=/tf_files/bottlenecks \
+--model_dir=/tf_files/inception \
+--output_graph=/tf_files/models/combined-retrained_graph.pb \
+--output_labels=/tf_files/models/combined-retrained_labels.txt \
+--image_dir /tf_files/plugs/plugs-combined
+
+# separate images
+python tensorflow/examples/image_retraining/retrain.py \
+--bottleneck_dir=/tf_files/bottlenecks \
+--model_dir=/tf_files/inception \
+--train_batch_size=25 \
+--test_batch_size=25 \
+--output_graph=/tf_files/models/separate-retrained_graph.pb \
+--output_labels=/tf_files/models/separate-retrained_labels.txt \
+--image_dir /tf_files/plugs/plugs-separate
+
+# female only images
+python tensorflow/examples/image_retraining/retrain.py \
+--bottleneck_dir=/tf_files/bottlenecks \
+--model_dir=/tf_files/inception \
+--train_batch_size=25 \
+--test_batch_size=25 \
+--output_graph=/tf_files/models/female-only-retrained_graph.pb \
+--output_labels=/tf_files/models/female-only-retrained_labels.txt \
+--image_dir /tf_files/plugs/plugs-female-only

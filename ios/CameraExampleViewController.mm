@@ -59,8 +59,7 @@ static const NSString *AVCaptureStillImageIsCapturingStillImageContext =
   session = [AVCaptureSession new];
   if ([[UIDevice currentDevice] userInterfaceIdiom] ==
       UIUserInterfaceIdiomPhone)
-      [session setSessionPreset:AVCaptureSessionPreset352x288];
-    //[session setSessionPreset:AVCaptureSessionPreset640x480];
+    [session setSessionPreset:AVCaptureSessionPreset640x480];
   else
     [session setSessionPreset:AVCaptureSessionPresetPhoto];
 
