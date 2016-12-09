@@ -1,0 +1,36 @@
+vga male
+bnc female
+ps2 female
+dvi male
+coaxial male
+ps2 male
+lightning male
+toslink female
+toslink male
+usb a female
+displayport male
+rca female
+usb b female
+micro usb male
+phone female
+ethernet male
+bnc male
+dvi female
+headphone male
+lightning female
+hdmi female
+usb c male
+displayport female
+usb b male
+coaxial female
+mini displayport male
+hdmi male
+usb c female
+headphone female
+rca male
+mini displayport female
+ethernet female
+phone male
+micro usb female
+vga female
+usb a male
