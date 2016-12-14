@@ -41,10 +41,33 @@
 
 <p>Technology advances at a rapid pace and lots of new hardware is created to facilitate those advances. One of the issues with these hardware changes is that we have so many different ports and plugs that it is hard to remember what they all do or even distinguish them. The average person probably doesn’t know what all the ports on a computer are used for.</p>
 
+<p>
+  <img width="40%" src="./img/ethernet.png" />
+  <img width="40%" src="./img/displayport.png" />
+</p>
+
 <h3>
 <a id="methods" class="anchor" href="#methods" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Methods</h3>
 
 <p>With recent advances in neural networks and machine learning, it has become much more realistic to classify images without needing massive amounts of processing power. Even mobile devices are now able to perform the computations necessary for convolutional neural networks. This project uses the Inception model which was developed using the TensorFlow machine intelligence software library. The Inception model was chosen for this project because of its ease of use and ability to quickly retrain to a new set of images.</p>
+<p>
+  <img width="90%" src="./img/inception.png" />
+</p>
+<p>The Inception model is a convolutional neural network (CNN) trained using 50 distributed high-end GPUs over weeks. This model proved to be 95% accurate on the ImageNet data source using the top 5 results.</p>
+<p>
+  <img width="15%" src="./img/lightning.jpg" />
+  <img width="15%" src="./img/mini-dp.jpg" />
+  <img width="15%" src="./img/coax.jpg" />
+  <img width="15%" src="./img/usb.jpg" />
+  <img width="15%" src="./img/toslink.jpg" />
+  <br />
+  <img width="15%" src="./img/rca.jpg" />
+  <img width="15%" src="./img/microusb.png" />
+  <img width="15%" src="./img/dvi.jpg" />
+  <img width="15%" src="./img/ps2.jpg" />
+  <img width="15%" src="./img/usbc.jpg" />
+</p>
+<p>Training images were downloaded from image search engines and manually classified. There were 36 categories in the set and 2114 images. CNN models were created with mixes of plug/port categories.</p>
 
 <h3>
 <a id="results" class="anchor" href="#results" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Results</h3>
@@ -80,6 +103,13 @@
 </tbody>
 </table>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PKL5N7FBQOk?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<p>
+  <img width="40%" src="./img/screenshot1.png" />
+  <img width="40%" src="./img/screenshot2.png" />
+</p>
+
 <p>The results showed a much higher accuracy when plug and port categories were separated and used in training the model.
 Anecdotally, the app was able to give accurate guesses for the majority of attempts. The correct plug was almost always in the top 5 results.</p>
 
@@ -98,7 +128,7 @@ Anecdotally, the app was able to give accurate guesses for the majority of attem
       </footer>
     </div>
 
-    
+
 
   </body>
 </html>
