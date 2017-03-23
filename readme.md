@@ -1,14 +1,14 @@
 # Plug Classification
 
-##[Website](https://bradsrichardson.github.io/plug-classification/)
+[Website](https://brad-richardson.github.io/plug-classification/)
 
 ## Setup
 
 All of this work is largely based on information from these two tutorials:
 
-####[TensorFlow for poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/index.html)
+[TensorFlow for poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/index.html)
 
-####[TensorFlow for poets mobile](https://petewarden.com/2016/09/27/tensorflow-for-mobile-poets/)
+[TensorFlow for poets mobile](https://petewarden.com/2016/09/27/tensorflow-for-mobile-poets/)
 
 If you get stuck on any of these steps, those sites will be very helpful in understanding better what is going on. This guide assumes that you are doing your work on macOS. If that isn't the case, please see the guides above.
 
